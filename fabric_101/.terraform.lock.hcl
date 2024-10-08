@@ -1,0 +1,25 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/microsoft/fabric" {
+  version     = "0.1.0-beta.4"
+  constraints = "0.1.0-beta.4"
+  hashes = [
+    "h1:vYGGSRnSSk1t/H2W2xR327KCAGxgmj1AVVmsIVdHG1I=",
+    "zh:075e89eb57fd3f4b5c20a0f11f6ad6d53889dacb4dca55c283122fa433eba299",
+    "zh:0d60952016434986881b257c68e6972c02e83ec22fc16b60183e2232b650370b",
+    "zh:1c1f4f44c5a498eba956600261c211e7b5560611fa94c17fbb748d168e18bd99",
+    "zh:27dbd73df9cd8c174a2b746bcf26acfe58a37f89da56ce913dc78165838c5749",
+    "zh:2f1be48603b76cff639913383116f2c33592c4c5ca4825d2d01a4c1988497903",
+    "zh:54a77b73437cf3dea13690145f3bebd6943deaed8304212bdab3191392248a45",
+    "zh:6275d9e0b0ca2e91334ad9131fad921c479420bccc755a6f7140a0500153fb44",
+    "zh:67bb2958c5f74810c867f447cd390007ed3a7ba812021c2a13b59f42c08b2ba8",
+    "zh:7ac1b106017460d22b24bf6183490ec25565e24875ad44fedc79615c55110491",
+    "zh:801422a8b21dfcedacaf9e95b1e91831496fe8370b4955b221ae82ec852d3e6a",
+    "zh:8e781b6d74a7b06c0168691146fb162f9797565b483ba2577fb8c4cb5c7ff78d",
+    "zh:a4b20da977fa224c6d8f33224ea550913d68e1ceeea52dbf41cd117440c5ab97",
+    "zh:c35074e71e768bcd57da284c1285be622a78ef81db7c047fb2ed9949bbc99e8e",
+    "zh:c89f9ccc9d9fd40d781b183db619947a0a0d12d4a4725a3602c6cba82295bc3e",
+    "zh:d1ef8b5d4b65f281b90566c1a917604a5079f60df6a8f3bca736bd81347536e0",
+  ]
+}
