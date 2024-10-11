@@ -28,3 +28,12 @@ resource "azapi_resource" "fc-fabric" {
     }
   }
 }
+
+data "fabric_capacity" "fc-fabric" {
+  display_name = azapi_resource.fc-fabric.name
+}
+
+resource "fabric_workspace" "ws-fabric" {
+  capacity_id  = data.fabric_capacity.fc-fabric.id
+  display_name = "NiceData - Fabric Terraform"
+}
